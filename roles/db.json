@@ -1,5 +1,5 @@
 {
-    "name": "web",
+    "name": "db",
     "description": "This is an example role defined as JSON",
     "chef_type": "role",
     "json_class": "Chef::Role",
@@ -8,8 +8,6 @@
     "override_attributes": {
     },
     "run_list": [
-        "recipe[apache]",
-	"recipe[php]",
 	"recipe[iptables]"
     ]
 }
