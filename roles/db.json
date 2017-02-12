@@ -8,6 +8,7 @@
     "override_attributes": {
     },
     "run_list": [
-	"recipe[iptables]"
+	"recipe[iptables]",
+	"recipe[db]"
     ]
 }
