@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'all_rights'
 description 'Installs/Configures db'
 long_description 'Installs/Configures db'
-version '0.1.1'
+version '2.0.0'
 
 depends 'selinux', '~> 0.9'
 depends 'iptables', '~> 3.1.0'

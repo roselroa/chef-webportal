@@ -8,7 +8,7 @@ execute 'create-db' do
 end
 
 execute 'create-user' do
-	command "mysql mysql -e \"grant all on webportal.* to \'webapp\'@\'%\' identified by \'#{webapp['dev']}\'\""
+	command "mysql mysql -e \"grant all on webportal.* to \'webapp\'@\'%\' identified by \'#{webapp[node.chef_environment]}\'\""
 end
 
 execute 'reload-priv' do

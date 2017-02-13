@@ -1,3 +1,5 @@
+<body bgcolor='#FF0000'>
+<h1><%= @node.chef_environment %></h1><br>
 <?php
 
 // Copy at your own risk license.
@@ -23,9 +25,9 @@ function get_client_ip() {
     	return $ipaddress;
 }
 
-$db_server="dbserver";
+$db_server="<%= @webapp_db %>";
 $db_user="webapp";
-$db_access="webapp1234";
+$db_access="<%= @webapp_access %>";
 $db_name="webportal";
 
 $conn=new mysqli($db_server,$db_user,$db_access,$db_name);
@@ -48,8 +50,6 @@ if (!($result=$conn->query($sql))) {
 	$hit_count=$row[0];
 }
 
-print "<body bgcolor='#FF0000'>";
 print "Your IP is $client and you are hitting the site for $hit_count time(s)";
-print "</body>";
-
 ?>
+</body>
