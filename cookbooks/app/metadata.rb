@@ -4,6 +4,7 @@ maintainer_email 'you@example.com'
 license 'all_rights'
 description 'Installs/Configures app'
 long_description 'Installs/Configures app'
-version '0.1.0'
+version '0.1.1'
 
 depends 'selinux', '~> 0.9'
+depends 'iptables', '~> 3.1.0'

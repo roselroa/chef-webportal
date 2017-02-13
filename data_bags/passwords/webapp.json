@@ -1,0 +1,9 @@
+{
+  "id": "webapp",
+  "password": {
+    "encrypted_data": "C/NHlc4aOted8xWgpTEVcFlDHFzO3ZHDRhIfDBAyMT4=\n",
+    "iv": "fay+OdFzM3+Yn6YfkHuFDA==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}
