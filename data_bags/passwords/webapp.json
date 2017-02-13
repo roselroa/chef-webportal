@@ -1,8 +1,26 @@
 {
   "id": "webapp",
-  "password": {
-    "encrypted_data": "C/NHlc4aOted8xWgpTEVcFlDHFzO3ZHDRhIfDBAyMT4=\n",
-    "iv": "fay+OdFzM3+Yn6YfkHuFDA==\n",
+  "_default": {
+    "encrypted_data": "imRebzlP5sudlmyAB/IlGpMwC02JCbEz9P1R8ZyDiss=\n",
+    "iv": "SqIX/4a9SNk3KALX9PvbBw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "dev": {
+    "encrypted_data": "82MozinxFuF9wkHp7pzAJpYlmNXzJaXAOGgb/BiSMwg=\n",
+    "iv": "eE+q2AialLdISd2NZB7lIQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "stg": {
+    "encrypted_data": "c5Kx/gC9Ol+1DvJvRae+dYBxXn77nwAazenkug3pRgU=\n",
+    "iv": "wBpeqkVQmBqbCILa4lJAQg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "prd": {
+    "encrypted_data": "CbDyKo7lIDW8mGHMtBy2L3fK0RLc5Oa+uTZkYt1XVlk=\n",
+    "iv": "uWAnXuqzDYH+d2uQcJ00Xg==\n",
     "version": 1,
     "cipher": "aes-256-cbc"
   }

@@ -1,0 +1,7 @@
+{
+  "id": "db",
+  "_default": "db1",
+  "dev": "db1",
+  "stg": "db1-stg",
+  "prd": "db1-prd"
+}

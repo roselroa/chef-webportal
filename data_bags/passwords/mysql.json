@@ -1,6 +1,6 @@
 {
   "id": "mysql",
-  "password": {
+  "dev": {
     "encrypted_data": "WC1s7uGzlnKlDzXz/lBGSFUlyoZOZqb1yuS23cPm+b8=\n",
     "iv": "jR/jOqIrrT47nU4v88kKMg==\n",
     "version": 1,
