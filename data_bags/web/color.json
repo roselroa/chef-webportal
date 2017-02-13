@@ -1,0 +1,7 @@
+{
+  "id": "color",
+  "_default": "#FF0000",
+  "dev": "#FF0000",
+  "stg": "#00FF00",
+  "prd": "#0000FF"
+}
