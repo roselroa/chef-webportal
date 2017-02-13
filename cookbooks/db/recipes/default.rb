@@ -4,11 +4,12 @@
 #
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
-# Create DB
+include_recipe 'selinux::disabled'
+include_recipe 'iptables::disabled'
 
-mysql_service 'portal' do
-	port '3306'
-	version '5.5'
-	initial_root_password 'password'
-	action [:create, :start]
+mysql = data_bag_item('passwords','mysql')
+webapp = data_bag_item('passwords','webapp')
+
+file '/var/tmp/secret' do
+	content "#{mysql['dev']} #{webapp['dev']} #{webapp['stg']} #{webapp['prd']}"
 end
